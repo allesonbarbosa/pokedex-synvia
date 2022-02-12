@@ -1,9 +1,9 @@
-<h1 align="center">Pokedex Alleson</h1>
+<h1 align="center">Pokedex Synvia Alleson</h1>
 
 <div align="center">
   <img src="src/assets/pokedex-interface.PNG" alt="interface-pokedex" width="600px">
 
-  <a target="_blank" href="https://pokedex-alleson.netlify.app"><img src="https://www.netlify.com/img/global/meta-image.jpg" alt="netlify" width="100px" height="50px"></img></a>
+  <a target="_blank" href="https://pokedex-synvia-alleson.netlify.app"><img src="https://www.netlify.com/img/global/meta-image.jpg" alt="netlify" width="100px" height="50px"></img></a>
 
   <p>This project is a technical challenge for Synvia. It consists of creating a Pokedex with ReactJs, consuming an API. In it we can filter the Pokemons by name, number or type.</p>
   
@@ -26,7 +26,7 @@ To clone and run this application, you'll need Git, Node.js and NPM installed on
 
 ```
 # Clone this repository
-$ git clone https://github.com/allesonbarbosa/pokedex-desafio-synvia.git
+$ git clone https://github.com/allesonbarbosa/pokedex-synvia.git
 
 # Go into the repository
 $ cd pokedex-synvia
