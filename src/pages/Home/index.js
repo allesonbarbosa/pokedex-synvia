@@ -54,12 +54,12 @@ function Home() {
     useEffect(() => {
         const newPokemons = allPokemons.filter(pokemon => pokemon.national_number.toLowerCase().includes(searchPokemon.toLowerCase()) || pokemon.name.toLowerCase().includes(searchPokemon.toLowerCase()));
         setFilteredPokemons(newPokemons);
-    }, [searchPokemon]);
+    }, [searchPokemon]); //eslint-disable-line
 
     useEffect(() => {
         const newPokemons = allPokemons.filter(pokemon => pokemon.type[0] === activeType);
         setFilteredPokemons(newPokemons);
-    }, [activeType]);
+    }, [activeType]); //eslint-disable-line
 
     return (
         <Container>
